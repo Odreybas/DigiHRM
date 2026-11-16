@@ -2,19 +2,18 @@
 
 A unified platform connecting people, skills, businesses, products, services and opportunities.
 
-## MVP source package
-The rebuilt source package contains:
+## Source package
+
+The current MVP source archive is committed as `DigiHRM_MVP_batch2.zip`. It contains:
 - Django REST Framework backend with JWT authentication
 - React + Vite frontend
 - Profiles, businesses, products, services and posts
 - Job listings and applications
-- Reviews, follows and basic messaging
-- Search and discovery API
-- Local setup instructions and environment examples
+- Reviews and discovery/search API
+- Local setup instructions, environment examples and GitHub Actions backend workflow
 
-## Project status
-This repository overview is being added first. The ZIP source archive is available separately in the ChatGPT conversation. Full source upload to this repository is not yet complete.
+Extract the ZIP to inspect the project structure. Backend setup instructions are in `backend/README.md` inside the archive; frontend setup instructions are in `frontend/README.md`.
 
-The MVP has only had Python syntax and ZIP integrity checks. Runtime, frontend build and end-to-end tests remain outstanding.
+## Verification status
 
-See the project README inside the extracted ZIP for installation and API details.
+The uploaded archive passed ZIP integrity validation and all 15 Python files passed syntax parsing. Django runtime checks, database migrations, automated test execution and frontend production build have not yet been run. This is an MVP starter, not a production-ready service.
